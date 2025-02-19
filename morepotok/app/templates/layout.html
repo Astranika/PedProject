@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Книги</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        .card {
+            border: 15px solid rgb(255, 0, 0);
+            border-radius: 20px;
+            box-shadow: 10px 4px 6px rgba(0, 0, 0, 1);
+            padding: 20px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 10px 6px 1px rgba(0, 0, 0, 1);
+        }
+        .card-title {
+            font-size: 1.25rem;
+            font-weight: bold;
+            color: rgb(0, 0, 120);
+        }
+        .card-text {
+            font-size: 1rem;
+            color: rgb(0, 0, 0);
+        }
+    </style>
+</head>
+<body>
+    <h1>Книги</h1>
+    {% block body %}{% endblock %}
+</body>
+</html>
