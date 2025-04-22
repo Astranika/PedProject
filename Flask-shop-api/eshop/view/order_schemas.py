@@ -9,7 +9,7 @@ class OrderSchema(Schema):
     id = fields.String()
     product_ids = fields.List(fields.Str())
     total = fields.Float()
-    name=fields.List(fields.Str(),missing=[])
+    name=fields.List(fields.Str(),load_default=[])
 
 
 class OrderGetManyParams(Schema):

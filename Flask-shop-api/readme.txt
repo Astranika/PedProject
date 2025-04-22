@@ -1,6 +1,6 @@
 Что бы запустить проект 
-1:создать venv python -m venv venv                  или python -m venv .venv
-2:активировать venv .venv\Scripts\activate
+1:создать окружение python -m venv venv
+2:активировать окружение .venv\Scripts\activate
 3:pip install -r requirements.txt
 4:python main.py
 --------------------------------------------------------------------------------------------------
