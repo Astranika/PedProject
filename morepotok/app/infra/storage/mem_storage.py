@@ -1,6 +1,6 @@
 #from domain.book import Book
 
-#больше не используется- память в переменной список
+#больше не используется- память в переменной список -оперативная
 class MemoryStorage:
     def __init__(self):
         self.books = []

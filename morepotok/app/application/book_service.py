@@ -1,4 +1,3 @@
-#теперь обращяется не к памяти а к репозиторию,непонятно зачем правда потому что тот в свою очередь просто транслирует запрос к памяти
 class BookService:
     def __init__(self, repository):
         self.repository = repository
